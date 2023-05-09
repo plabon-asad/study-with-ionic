@@ -5,18 +5,30 @@ Study for self development to be an Ionic developer.
 ### Command List
 [Capacitor commands link](https://capacitorjs.com/docs/getting-started/with-ionic)
 
-### Some plugins already worked
+### Plugins (Recent work)
 - [Barcode-scanner](https://github.com/capacitor-community/barcode-scanner)
 - [Capacitor resources add](https://github.com/leonardoquevedox/capacitor-resources)
 
-### Ionic Live reload steps-
- - Find your ip address
- - Connect your mobile with same internet
- - And use a cable to connect your phone with pc
- - Run command `ionic cap run android -l --host=192.168.1.100` this is your-ip '192.168.1.100'
- - Wait and see to run your project on your android phone with lively
+### Projects (Recent)
+- [Feedchat](https://play.google.com/store/apps/developer?id=Feedchat)
+- [BD comapany apps](https://play.google.com/store/apps/developer?id=My+Global+App+Pty+Ltd)
 
- [Live reload](https://ionicframework.com/docs/cli/commands/capacitor-run) by capacitor: `ionic cap run android -l --external` and `ionic cap run ios -l --external`
+### Best works
+- [My School Bag](https://play.google.com/store/apps/details?id=com.myglobalapp.msb)
+- [My health record](https://play.google.com/store/apps/details?id=com.health.mhr)
+- [MHR Doctor BD](https://play.google.com/store/apps/details?id=com.myglobalapp.mhr.doctor)
+
+### Ionic **Live reload and Deploy in Phone** with Capacitor by [Native Run](https://capacitorjs.com/docs/guides/live-reload)
+ - Native plugin install `npm install -g @ionic/cli native-run`
+ - Connect with USB/Wify(Same wify with pc and mobile) to PC
+ - Mobile `Developer mode` on all required options
+ - Get to see available list of AVD, Run `adb devices` or `ionic capacitor run android --list`
+ - Copy the `Target ID`
+ - Run `ionic cap run android/ios -l --external`
+ - Deploy in Android phone `ionic capacitor run android --target e1f86a91`
+
+### Ionic build
+All command list `ionic build --help`
 
 ### Issue & Solution
 Issue | Solution | Description
