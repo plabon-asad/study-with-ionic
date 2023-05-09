@@ -30,6 +30,12 @@ Study for self development to be an Ionic developer.
 ### Ionic build
 All command list `ionic build --help`
 
+### iOS deployment
+
+### Android deployment
+- [Google play console(Registration, login)](https://developer.android.com/distribute/console)
+- Step by step [link here](https://support.google.com/googleplay/android-developer/answer/9859152)
+
 ### Issue & Solution
 Issue | Solution | Description
 ------------ | ------------- | -------------
