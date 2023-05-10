@@ -40,3 +40,4 @@ All command list `ionic build --help`
 Issue | Solution | Description
 ------------ | ------------- | -------------
 HTTP not workin in Android | [Android api issue of 'http'](https://stackoverflow.com/questions/45940861/android-8-cleartext-http-traffic-not-permitted) | Android updated SDK not allow HTTP requrest for API cause of security purposes its defalut is `false` so you may config as per your need.
+Ionic capacitor (Android) Package name not update | [Changing the Package ID](https://capacitorjs.com/docs/v4/android/configuration) | You need to use a different package name because 'io.ionic.starter' already exists in Google Play.
