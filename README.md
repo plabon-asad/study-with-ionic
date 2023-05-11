@@ -7,7 +7,8 @@ Study for self development to be an Ionic developer.
 
 ### Plugins (Recent work)
 - [Barcode-scanner](https://github.com/capacitor-community/barcode-scanner)
-- [Capacitor resources add](https://github.com/leonardoquevedox/capacitor-resources)
+- [Capacitor resources add](https://github.com/ionic-team/capacitor-assets#adaptive-icons)
+- 
 
 ### Projects (Recent)
 - [Feedchat](https://play.google.com/store/apps/developer?id=Feedchat)
@@ -36,8 +37,11 @@ All command list `ionic build --help`
 - [Google play console(Registration, login)](https://developer.android.com/distribute/console)
 - Step by step [link here](https://support.google.com/googleplay/android-developer/answer/9859152)
 
+### Others Work
+
 ### Issue & Solution
 Issue | Solution | Description
 ------------ | ------------- | -------------
 HTTP not workin in Android | [Android api issue of 'http'](https://stackoverflow.com/questions/45940861/android-8-cleartext-http-traffic-not-permitted) | Android updated SDK not allow HTTP requrest for API cause of security purposes its defalut is `false` so you may config as per your need.
 Ionic capacitor (Android) Package name not update | [Changing the Package ID](https://capacitorjs.com/docs/v4/android/configuration) | You need to use a different package name because 'io.ionic.starter' already exists in Google Play.
+Ionic capacitor Resources(Icon & Splash Screen) | [Stackoverflow solution](https://stackoverflow.com/questions/66026629/error-occurred-while-copying-resources-android-icon-mdpi-foreground-png) | [Github discussion](https://github.com/ionic-team/capacitor-assets/issues/137)
